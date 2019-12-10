@@ -287,10 +287,10 @@ footer {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.99);
   z-index: 2;
-  -webkit-transition: all 1.5s ease;
-  transition: all 1.5s ease; }
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease; }
 
 @media only screen and (max-width: 1400px) {
   header div#showcase div#showcaseText {
@@ -317,15 +317,23 @@ footer {
     position: relative; }
     header ul.navbar-nav {
       position: fixed;
+      left: 0;
       width: 100%;
       background-color: rgba(255, 255, 255, 0.99);
       z-index: 1; }
     header a.navbar-brand#branding {
       padding-left: 0 !important; }
-    header ul.navbar-nav {
-      text-align: center; }
+    header li.nav-item:first-child,
+    header a.nav-link:first-child {
+      padding-top: 0 !important; }
     header li.nav-item:last-child {
       padding-right: 0.9rem !important; }
+    header .sticky {
+      padding-bottom: 0;
+      -webkit-transition: all 0.4s ease;
+      transition: all 0.4s ease; }
+    header ul.navbar-nav {
+      text-align: center; }
     header li#dropdownMenu:hover div#dropdownContent {
       display: none !important; }
     header div#showcase div#showcaseText p {
@@ -345,6 +353,7 @@ footer {
       section#section-2 div#featuresText div#numbers div.rectangle h1 {
         font-size: 2.5rem; }
   section#section-3 {
+    height: 100%;
     padding: 9vmin 0 0 !important; }
     section#section-3 div#downloadApp h1 {
       padding: 2vmin 2vmin 4vmin;
@@ -508,8 +517,8 @@ footer {
         font-size: 0.9rem;
         color: rgba(0, 0, 0, 0.5); }
   section#section-2 div#background-image {
-    height: 29vh;
-    background-position: -20vmin -9vmin; }
+    height: 32vh;
+    background-position: -20vmin -19vmin; }
     section#section-2 div#background-image h1 {
       font-size: 7vmin !important; }
     section#section-2 div#background-image p {

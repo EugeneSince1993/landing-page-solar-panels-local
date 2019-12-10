@@ -2,7 +2,7 @@
 let navbar = $(".navbar");
 
 $(window).scroll(function() {
-  let topOfTheSecondSection = $("#section-2").offset().top - window.innerHeight;
+  let topOfTheSecondSection = $("#section-1").offset().top - window.innerHeight;
   if ($(window).scrollTop() > topOfTheSecondSection) {
     navbar.addClass("sticky");
   } else {

@@ -382,9 +382,9 @@ footer {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(255,255,255,0.99);
   z-index: 2;
-  transition: all 1.5s ease;
+  transition: all 0.8s ease;
 }
 @media only screen and (max-width: 1400px) {
   header {
@@ -438,6 +438,7 @@ footer {
     position: relative;
     ul.navbar-nav {
       position: fixed;
+      left: 0;
       width: 100%;
       background-color: rgba(255,255,255,0.99);
       z-index: 1;
@@ -445,11 +446,19 @@ footer {
     a.navbar-brand#branding {
       padding-left: 0 !important;
     }
-    ul.navbar-nav {
-      text-align: center;
+    li.nav-item:first-child,
+    a.nav-link:first-child {
+      padding-top: 0 !important;
     }
     li.nav-item:last-child {
       padding-right: 0.9rem !important;
+    }
+    .sticky {
+      padding-bottom: 0;
+      transition: all 0.4s ease;
+    }
+    ul.navbar-nav {
+      text-align: center;
     }
     li#dropdownMenu:hover div#dropdownContent {
       display: none !important;
@@ -486,6 +495,7 @@ footer {
     }
   }
   section#section-3 {
+    height: 100%;
     padding: 9vmin 0 0 !important;
     div#downloadApp {
       h1 {
@@ -770,8 +780,8 @@ footer {
   }
   section#section-2 {
     div#background-image {
-      height: 29vh;
-      background-position: -20vmin -9vmin;
+      height: 32vh;
+      background-position: -20vmin -19vmin;
       h1 {
         font-size: 7vmin !important;
       }
