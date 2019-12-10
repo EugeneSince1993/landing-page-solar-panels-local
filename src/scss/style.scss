@@ -168,11 +168,11 @@ section#section-2 {
     width: 100%;
     height: 55vh;
     background-image: url('../img/solar-panel-field.jpg');
-    background-position: -40vmin -25vmin;
+    background-position: -50vmin -75vmin;
     background-size: 140%;
     position: relative;
     div#featuresHeader {
-      background-color: rgba(0,0,0,0.7);
+      background-color: rgba(0,0,0,0.6);
       width: 100%;
       height: 100%;
       padding-top: 19vmin;
@@ -402,6 +402,11 @@ footer {
       }
     }
   }
+  section#section-2 {
+    div#background-image {
+      background-position: -20vmin -40vmin;
+    }
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1265px) {
   header {
@@ -460,13 +465,15 @@ footer {
   }
   section#section-2 {
     div#background-image {
-      background-position: -27vmin -10vmin;
+      height: 45vh;
+      background-position: -20vmin -40vmin;
       h1 {
         font-size: 5.6vmin !important;
       }
     }
     div#featuresText {
       div#numbers {
+        margin-top: -5rem;
         div.rectangle {
           width: 9rem;
           height: 9rem;
@@ -550,6 +557,12 @@ footer {
           color: rgba(0,0,0,0.5);
         }
       }
+    }
+  }
+  section#section-2 {
+    div#background-image {
+      height: 38vh;
+      background-position: -20vmin -30vmin;
     }
   }
   section#section-3 {
@@ -641,9 +654,13 @@ footer {
   section#section-2 {
     div#background-image {
       height: 32vh;
-      background-position: -27vmin -10vmin;
+      background-position: -20vmin -16vmin;
       h1 {
         font-size: 5.6vmin !important;
+      }
+      p {
+        font-size: 0.6rem !important;
+        padding: 0.4rem 1rem;
       }
     }
     div#featuresText {
@@ -753,13 +770,13 @@ footer {
   }
   section#section-2 {
     div#background-image {
-      height: 32vh;
-      background-position: -27vmin -10vmin;
+      height: 29vh;
+      background-position: -20vmin -9vmin;
       h1 {
         font-size: 7vmin !important;
       }
       p {
-        font-size: 0.5rem !important;
+        font-size: 0.6rem !important;
         padding: 0.4rem 1rem;
       }
     }
