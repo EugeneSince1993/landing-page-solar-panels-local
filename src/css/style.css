@@ -323,15 +323,12 @@ footer {
       z-index: 1; }
     header a.navbar-brand#branding {
       padding-left: 0 !important; }
-    header li.nav-item:first-child,
-    header a.nav-link:first-child {
-      padding-top: 0 !important; }
     header li.nav-item:last-child {
       padding-right: 0.9rem !important; }
     header .sticky {
       padding-bottom: 0;
-      -webkit-transition: all 0.4s ease;
-      transition: all 0.4s ease; }
+      -webkit-transition: all 0.6s ease;
+      transition: all 0.6s ease; }
     header ul.navbar-nav {
       text-align: center; }
     header li#dropdownMenu:hover div#dropdownContent {
