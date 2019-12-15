@@ -292,19 +292,26 @@ footer {
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease; }
 
-@media only screen and (max-width: 1400px) {
-  header div#showcase div#showcaseText {
-    padding: 10vmin 0; }
+@media only screen and (max-width: 1450px) {
+  header div#showcase {
+    padding: 7vmin 0 0; }
     header div#showcase div#showcaseText h1 {
       font-size: 3.5rem; }
-  header div#showcase div#showcaseImage img {
-    width: 27rem; }
+    header div#showcase div#showcaseImage img {
+      width: 20rem; }
+  section#section-1 {
+    padding: 10vmin 0 0; }
+    section#section-1 div#introductionImage img {
+      width: 60%; }
+    section#section-1 div#introduction div#introductionText {
+      top: 6vmin;
+      left: -35vmin; }
   section#section-2 div#background-image {
-    background-position: -20vmin -40vmin; } }
+    background-position: -20vmin -80vmin; } }
 
 @media only screen and (min-width: 992px) and (max-width: 1265px) {
   header div#showcase div#showcaseImage img {
-    width: 23rem; }
+    width: 20rem; }
   section#section-2 div#featuresText div#numbers div.rectangle {
     width: 12.9rem;
     height: 10rem;
@@ -314,6 +321,7 @@ footer {
 
 @media only screen and (max-width: 991px) {
   header {
+    height: 100%;
     position: relative; }
     header ul.navbar-nav {
       position: fixed;
@@ -336,6 +344,15 @@ footer {
     header div#showcase div#showcaseText p {
       font-size: 0.9rem;
       padding: 1rem 3rem; }
+  section#section-1 {
+    padding: 10vmin 0 10vmin;
+    height: 100%; }
+    section#section-1 div#introductionImage img {
+      width: 60%; }
+    section#section-1 div#introduction {
+      padding-top: 5rem; }
+      section#section-1 div#introduction div#introductionText {
+        position: static; }
   section#section-2 div#background-image {
     height: 45vh;
     background-position: -20vmin -40vmin; }
@@ -351,7 +368,7 @@ footer {
         font-size: 2.5rem; }
   section#section-3 {
     height: 100%;
-    padding: 9vmin 0 0 !important; }
+    padding: 9vmin 0 9vmin !important; }
     section#section-3 div#downloadApp h1 {
       padding: 2vmin 2vmin 4vmin;
       font-size: 4.6vmin; }
@@ -374,12 +391,12 @@ footer {
     footer .col-lg-3 div#socialLinks i {
       font-size: 2rem; } }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   section#section-1 {
-    height: 100vh;
+    height: 100%;
     padding: 8vmin 2vmin; }
     section#section-1 div#introductionImage img {
-      width: 18rem; }
+      width: 70%; }
     section#section-1 div#introduction div#introductionText {
       padding: 4vmin;
       margin: 2rem auto;
@@ -395,7 +412,7 @@ footer {
     height: 38vh;
     background-position: -20vmin -30vmin; }
   section#section-3 {
-    padding: 12vmin 0 0 !important; }
+    padding: 12vmin 0 9vmin !important; }
     section#section-3 div#downloadApp h1 {
       padding: 2vmin 2vmin 4vmin;
       font-size: 4.6vmin; }
@@ -419,7 +436,7 @@ footer {
   header {
     height: 100%; }
     header div#showcase {
-      padding: 4vmin 0; }
+      padding: 10vmin 0 4vmin; }
       header div#showcase div#showcaseText {
         padding: 2vmin 0; }
         header div#showcase div#showcaseText h1 {
@@ -432,17 +449,19 @@ footer {
     padding: 8vmin 2vmin; }
     section#section-1 div#introductionImage img {
       width: 18rem; }
-    section#section-1 div#introduction div#introductionText {
-      padding: 4vmin 5vmin !important;
-      margin: 4rem 1.5rem;
-      position: static; }
-      section#section-1 div#introduction div#introductionText h1 {
-        font-weight: bold;
-        padding: 0.4rem 0;
-        font-size: 2rem; }
-      section#section-1 div#introduction div#introductionText p {
-        font-size: 0.9rem;
-        color: rgba(0, 0, 0, 0.5); }
+    section#section-1 div#introduction {
+      padding-top: 2rem; }
+      section#section-1 div#introduction div#introductionText {
+        padding: 4vmin 5vmin !important;
+        margin: 2rem 1.5rem;
+        position: static; }
+        section#section-1 div#introduction div#introductionText h1 {
+          font-weight: bold;
+          padding: 0.4rem 0;
+          font-size: 2rem; }
+        section#section-1 div#introduction div#introductionText p {
+          font-size: 0.9rem;
+          color: rgba(0, 0, 0, 0.5); }
   section#section-2 div#background-image {
     height: 32vh;
     background-position: -20vmin -16vmin; }
@@ -499,7 +518,7 @@ footer {
       header div#showcase div#showcaseImage img {
         width: 15rem; }
   section#section-1 {
-    padding: 8vmin 2vmin; }
+    padding: 15vmin 2vmin 8vmin; }
     section#section-1 div#introductionImage img {
       width: 17rem; }
     section#section-1 div#introduction div#introductionText {

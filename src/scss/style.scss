@@ -386,25 +386,39 @@ footer {
   z-index: 2;
   transition: all 0.8s ease;
 }
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1450px) {
   header {
     div#showcase {
+      padding: 7vmin 0 0;
       div#showcaseText {
-        padding: 10vmin 0;
         h1 {
           font-size: 3.5rem;
         }
       }
       div#showcaseImage {
         img {
-          width: 27rem;
+          width: 20rem;
         }
+      }
+    }
+  }
+  section#section-1 {
+    padding: 10vmin 0 0;
+    div#introductionImage {
+      img {
+        width: 60%;
+      }
+    }
+    div#introduction {
+      div#introductionText {
+        top: 6vmin;
+        left: -35vmin;
       }
     }
   }
   section#section-2 {
     div#background-image {
-      background-position: -20vmin -40vmin;
+      background-position: -20vmin -80vmin;
     }
   }
 }
@@ -413,7 +427,7 @@ footer {
     div#showcase {
       div#showcaseImage {
         img {
-          width: 23rem;
+          width: 20rem;
         }
       }
     }
@@ -435,6 +449,7 @@ footer {
 }
 @media only screen and (max-width: 991px) {
   header {
+    height: 100%;
     position: relative;
     ul.navbar-nav {
       position: fixed;
@@ -468,6 +483,21 @@ footer {
       }
     }
   }
+  section#section-1 {
+    padding: 10vmin 0 10vmin;
+    height: 100%;
+    div#introductionImage {
+      img {
+        width: 60%;
+      }
+    }
+    div#introduction {
+      padding-top: 5rem;
+      div#introductionText {
+        position: static;
+      }
+    }
+  }
   section#section-2 {
     div#background-image {
       height: 45vh;
@@ -492,7 +522,7 @@ footer {
   }
   section#section-3 {
     height: 100%;
-    padding: 9vmin 0 0 !important;
+    padding: 9vmin 0 9vmin !important;
     div#downloadApp {
       h1 {
         padding: 2vmin 2vmin 4vmin;
@@ -538,13 +568,13 @@ footer {
     }
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   section#section-1 {
-    height: 100vh;
+    height: 100%;
     padding: 8vmin 2vmin;
     div#introductionImage {
       img {
-        width: 18rem;
+        width: 70%;
       }
     }
     div#introduction {
@@ -572,7 +602,7 @@ footer {
     }
   }
   section#section-3 {
-    padding: 12vmin 0 0 !important;
+    padding: 12vmin 0 9vmin !important;
     div#downloadApp {
       h1 {
         padding: 2vmin 2vmin 4vmin;
@@ -616,7 +646,7 @@ footer {
   header {
     height: 100%;
     div#showcase {
-      padding: 4vmin 0;
+      padding: 10vmin 0 4vmin;
       div#showcaseText {
         padding: 2vmin 0;
         h1 {
@@ -640,9 +670,10 @@ footer {
       }
     }
     div#introduction {
+      padding-top: 2rem;
       div#introductionText {
         padding: 4vmin 5vmin !important;
-        margin: 4rem 1.5rem;
+        margin: 2rem 1.5rem;
         position: static;
 
         h1 {
@@ -751,7 +782,7 @@ footer {
     }
   }
   section#section-1 {
-    padding: 8vmin 2vmin;
+    padding: 15vmin 2vmin 8vmin;
     div#introductionImage {
       img {
         width: 17rem;
